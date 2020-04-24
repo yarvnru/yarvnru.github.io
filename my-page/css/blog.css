@@ -1,0 +1,24 @@
+
+
+.post-date {
+    position: absolute;
+    right: 585px;
+    display: inline-block;
+    vertical-align: top;
+   text-align: right;
+}
+
+.post-title {
+    display: inline-block;
+    vertical-align: top;
+}
+
+}
+
+.post {
+    border-style: ridge;
+    border-color: rgba(61, 33, 33, 0.945);
+    border-width: 2px;
+    margin: 15px;
+    padding: 15px;
+}

@@ -1,0 +1,40 @@
+
+
+.avatar{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-right: 16px;
+    padding-top: 16px;
+}
+
+.about-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-text {
+    color:black;
+}
+
+.about-text h2{
+    display: block;
+    text-align: center;
+}
+
+
+.top-line{
+    display: block;
+}
+
+.banner {
+    position: absolute;
+    top: 100px;
+    right: 800px;
+    display: inline-block;
+    background-color: snow;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
