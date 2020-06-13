@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор 1.0</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <div class="calc">
+    <div class="calc__display" id="display">0</div>
+    <!-- line 1-->
+    <button class="calc__button calc__button_dark" onclick="reset();">C</button>
+    <button class="calc__button calc__button_dark" onclick="doInvert()">+/-</button>
+    <button class="calc__button calc__button_dark" onclick="doAction('%')">%</button>
+    <button class="calc__button calc__button_orange" onclick="doAction('/')">&divide;</button>
+    <!-- line 2-->
+    <button class="calc__button" onclick="setNumber('7');">7</button>
+    <button class="calc__button" onclick="setNumber('8');">8</button>
+    <button class="calc__button" onclick="setNumber('9');">9</button>
+    <button class="calc__button calc__button_orange" onclick="doAction('*')">&times;</button>
+    <!-- line 3-->
+    <button class="calc__button" onclick="setNumber('4');">4</button>
+    <button class="calc__button" onclick="setNumber('5');">5</button>
+    <button class="calc__button" onclick="setNumber('6');">6</button>
+    <button class="calc__button calc__button_orange" onclick="doAction('-')">-</button>
+    <!-- line 4 -->
+    <button class="calc__button" onclick="setNumber('1');">1</button>
+    <button class="calc__button" onclick="setNumber('2');">2</button>
+    <button class="calc__button" onclick="setNumber('3');">3</button>
+    <button class="calc__button calc__button_orange" onclick="doAction('+')">+</button>
+    <!-- line 5 -->
+    <button class="calc__button calc__button_x2" onclick="setNumber('0');">0</button>
+    <button class="calc__button" onclick="setNumber(',')">,</button>
+    <button class="calc__button calc__button_orange" onclick="doAction('=')">=</button>
+  </div>
+</body>
+</html>
